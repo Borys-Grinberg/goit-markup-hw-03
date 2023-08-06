@@ -417,3 +417,15 @@ margin-bottom: 16px;
     margin-bottom: 72px;
 }
 
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+
+.project-cards-li-item {
+    width: calc((100% - 48px) / 3);
+    
+}
