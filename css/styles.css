@@ -177,7 +177,7 @@ font-style: normal;
 .p-of-second-section {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+   
 
 }
 
@@ -311,4 +311,8 @@ font-style: normal;
 .section-benefits {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.h-three-headers {
+    margin-bottom: 8px;
 }
