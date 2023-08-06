@@ -188,6 +188,8 @@ font-style: normal;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--text-color);
+    margin-bottom: 72px;
+
 
 }
 
@@ -315,4 +317,21 @@ font-style: normal;
 
 .h-three-headers {
     margin-bottom: 8px;
+}
+
+/* =============== Section three ===========*/
+
+.section-whatwearedoing {
+    padding-bottom: 120px;
+
+}
+
+.section-three-list {
+    display:flex;
+    gap: 24px;
+
+}
+
+.s-three-list-item {
+    width: calc((100% - 48px) / 3); 
 }
