@@ -289,3 +289,20 @@ font-style: normal;
     max-width: 496px;
 }
 
+
+/*================ Section two =============*/
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.benefits-item {
+    width: calc((100% - 72px) / 4); 
+}
