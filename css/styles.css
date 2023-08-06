@@ -6,6 +6,8 @@
     --hover-color: #404BBF;
     --button-background: #F4F4FD;
     --header-underline: #e7e9fc;
+
+
 }
 h1,h2,h3,h4,h5,h6,p {
     margin-top: 0;
@@ -241,6 +243,10 @@ font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 12px 24px;
+    border: 1px solid var(--header-underline);
+    border-radius: 4px;
+
 }
 
 
@@ -248,7 +254,9 @@ font-style: normal;
 .portfolio-button:hover,
 .portfolio-button:focus {
     color: var(--background-color);
-    background-color: var(--hover-color);}
+    background-color: var(--hover-color);
+    border: 1px solid transparent;
+}
 
 
 .page-nav {
@@ -384,3 +392,19 @@ margin-bottom: 16px;
 .footer-text {
     max-width: 264px;
 }
+
+
+/* =================== Portfolio ====================*/
+
+.main-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.portfolio-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
